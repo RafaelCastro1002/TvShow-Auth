@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    background-color: #080e2c;
+    color: white;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.header h1 {
+    font-family: 'title';
+    margin: 0;
+}
+
+.header>img, .header>#icon-user {
+    border-radius: 100%;
+    border: 3px solid rgba(255, 0, 0, 0.595);
+    margin: 0 10px 0 20px;
+    float: right !important;
+    width: 40px;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+#icon-user {
+    font-size: 2.5em;
+}
+
+.header span {
+    font-family: 'title';
+    margin-right: 30px;
+}
+
+#icon-logout {
+    color: white;
+    font-size: 1.2em
+}
+
+#items-menu {
+    float: right;
+    margin: 0 3em 0 auto
+}
+
+#items-menu>li {
+    list-style-type: none;
+    float: left;
+    margin-right: 3em;
+    font-family: 'regular';
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.786)
+}
+
+#items-menu>li:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
